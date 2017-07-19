@@ -208,5 +208,7 @@ session required /lib/security/pam_limits.so
 ![](resource/2017-07-19_150529.png)
 ![](resource/2017-07-19_152533.png)
 
+后面会出现两个root.sh脚本需要在root用户下执行且执行完成后，记得点击OK键
+
 
 
