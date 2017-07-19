@@ -5,5 +5,5 @@ oracle数据库单机需要整理出来一个文档，现在重新再虚拟机�
 
 # 环境准备
 
-1.centos6.5X64
-2.linux.x64_11gR2_database_1of2.zip linux.x64_11gR2_database_1of2.zip
+*	centos6.5X64
+*	linux.x64_11gR2_database_1of2.zip linux.x64_11gR2_database_1of2.zip
