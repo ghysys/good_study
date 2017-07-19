@@ -32,6 +32,7 @@ oracle数据库单机需要整理出来一个文档，现在重新再虚拟机�
 	cd /etc/yum.repos.d/
 	vim pkg_run.sh
 
+文件内容
 
 	yum -y install   binutils-2*x86_64*
 	yum -y install   glibc-2*x86_64* nss-softokn-freebl-3*x86_64*
@@ -61,6 +62,31 @@ oracle数据库单机需要整理出来一个文档，现在重新再虚拟机�
 	yum -y install   compat-libstdc++-33*i686*
 	yum -y install   compat-libcap*
 
+授权并执行
 
 	chmod 777 pkg_run.sh
 	./pkg_run.sh
+
+
+## 创建用户并修改参数文件
+
+	groupadd oinstall
+	groupadd dba
+	useradd -m -g oinstall -G dba oracle
+	passwd oracle
+
+	mkdir -p /u01/app/oracle
+	chown -R oracle:oinstall /u01/app/oracle
+	chmod -R 777 /u01/app/oracle
+	mkdir -p /u01/app/oraInventory
+	chown -R oracle:oinstall /u01/app/oraInventory
+	chmod -R 777 /u01/app/oraInventory
+
+	su -oracle
+	vim .bash_profile
+	export ORACLE_SID=orcl
+	export ORACLE_BASE=/u01/app/oracle
+	export ORACLE_HOME=/u01/app/oracle/product/11.2.0/db_1
+	export PATH=$PATH:/u01/app/oracle/product/11.2.0/db_1/bin
+
+
