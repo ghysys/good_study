@@ -199,7 +199,6 @@ session required /lib/security/pam_limits.so
 
 ![](resource/2017-07-19_145752.png)
 ![](resource/2017-07-19_145835.png)
-![](resource/2017-07-19_145835.png)
 ![](resource/2017-07-19_145903.png)
 ![](resource/2017-07-19_145948.png)
 ![](resource/2017-07-19_150027.png)
