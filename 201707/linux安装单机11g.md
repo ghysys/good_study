@@ -84,6 +84,9 @@ oracle数据库单机需要整理出来一个文档，现在重新再虚拟机�
 
 	su -oracle
 	vim .bash_profile
+
+.bash_profile添加内容
+
 	export ORACLE_SID=orcl
 	export ORACLE_BASE=/u01/app/oracle
 	export ORACLE_HOME=/u01/app/oracle/product/11.2.0/db_1
