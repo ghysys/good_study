@@ -32,6 +32,7 @@ oracle数据库单机需要整理出来一个文档，现在重新再虚拟机�
 	cd /etc/yum.repos.d/
 	vim pkg_run.sh
 
+
 	yum -y install   binutils-2*x86_64*
 	yum -y install   glibc-2*x86_64* nss-softokn-freebl-3*x86_64*
 	yum -y install   glibc-2*i686* nss-softokn-freebl-3*i686*
@@ -59,6 +60,7 @@ oracle数据库单机需要整理出来一个文档，现在重新再虚拟机�
 	yum -y install   sysstat-9*x86_64*
 	yum -y install   compat-libstdc++-33*i686*
 	yum -y install   compat-libcap*
+
 
 	chmod 777 pkg_run.sh
 	./pkg_run.sh
