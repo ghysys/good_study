@@ -175,4 +175,39 @@ oracle hard nofile 65536
 
 session required /lib/security/pam_limits.so
 
+## 重启
+
+
+## 上传文件到/u01/app/oracle并解压
+
+	unzip linux.x64_11gR2_database_1of2.zip 
+	unzip linux.x64_11gR2_database_2of2.zip
+
+## 安装xterm软件
+
+	rpm -qa | grep xterm
+	yum -y install xterm*
+
+# 安装oracle软件
+
+## 使用xstart软件登录到oracle用户
+
+## 进入oracle解压目录并执行安装命令
+
+	./runInstall
+
+
+![](resource/2017-07-19_145752.png)
+![](resource/2017-07-19_145835.png)
+![](resource/2017-07-19_145835.png)
+![](resource/2017-07-19_145903.png)
+![](resource/2017-07-19_145948.png)
+![](resource/2017-07-19_150027.png)
+![](resource/2017-07-19_150048.png)
+![](resource/2017-07-19_150103.png)
+![](resource/2017-07-19_150512.png)
+![](resource/2017-07-19_150529.png)
+![](resource/2017-07-19_152533.png)
+
+
 
