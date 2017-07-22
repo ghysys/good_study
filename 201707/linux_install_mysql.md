@@ -37,6 +37,7 @@
 ## mysql初始化
 
 	/usr/local/mysql/scripts/mysql_install_db --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
+	cp /usr/local/mysql/support-files/mysql.server /etc/init.d/mysqld
 	
 ## 配置文件
 
@@ -59,7 +60,8 @@
 报错信息
 -------
 
-# libaio.so.1: cannot open shared object file: No such file or directory
+<font color="#FF0000">libaio.so.1: cannot open shared object file: No such file or directory；libstdc++.so.6: cannot open shared object file: No such file or directory；libncurses.so.5: cannot open shared object file: No such file or directory</font>
+# 
 
 请安装依赖包：libstdc++.so.6,libaio.so.1,libncurses.so.5
 
