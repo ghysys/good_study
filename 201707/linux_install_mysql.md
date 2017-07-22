@@ -60,8 +60,11 @@
 报错信息
 -------
 
-<font color="#FF0000">libaio.so.1: cannot open shared object file: No such file or directory；libstdc++.so.6: cannot open shared object file: No such file or directory；libncurses.so.5: cannot open shared object file: No such file or directory</font>
-# 
+<font color="#FF0000">libaio.so.1: cannot open shared object file: No such file or directory</font>
+
+<font color="#FF0000">libstdc++.so.6: cannot open shared object file: No such file or directory</font>
+
+<font color="#FF0000">libncurses.so.5: cannot open shared object file: No such file or directory</font>
 
 请安装依赖包：libstdc++.so.6,libaio.so.1,libncurses.so.5
 
