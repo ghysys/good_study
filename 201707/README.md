@@ -1,4 +1,4 @@
 ﻿
-##### linux安装单机11g.md   [《虚拟机 linux 安装 oracle 11g 单机》](linux安装单机11g.md)  
+##### linux install oracle 11g  single.md   [《虚拟机 linux 安装 oracle 11g 单机》](linux install oracle 11g  single.md)  
 
-##### virtualbox虚拟机复制后配置.md   [《virtualbox虚拟机复制后配置》](virtualbox虚拟机复制后配置.md)  
+##### virtualbox machine backup configure.md   [《virtualbox虚拟机复制后配置》](virtualbox machine backup configure.md)  
