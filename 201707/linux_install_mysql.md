@@ -38,5 +38,5 @@
 
 	scripts/mysql_install_db --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
 	
-报错信息
+<fond colr="red">报错信息</fond>
 -------
