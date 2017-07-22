@@ -60,16 +60,14 @@
 报错信息
 -------
 
-<font color="#FF0000">libaio.so.1: cannot open shared object file: No such file or directory</font>
+**libaio.so.1: cannot open shared object file: No such file or directory**
 
-<font color="#FF0000">libstdc++.so.6: cannot open shared object file: No such file or directory</font>
+**ibstdc++.so.6: cannot open shared object file: No such file or directory**
 
-<font color="#FF0000">libncurses.so.5: cannot open shared object file: No such file or directory</font>
+**libncurses.so.5: cannot open shared object file: No such file or directory**
 
 请安装依赖包：libstdc++.so.6,libaio.so.1,libncurses.so.5
 
-WARNING: The host 'sqlite' could not be looked up with /usr/local/mysql/bin/resolveip.
+**WARNING: The host 'sqlite' could not be looked up with /usr/local/mysql/bin/resolveip.**
 
 修改hosts信息，添加ip地址映射
-
-<font color=gray size=5>gray</font>
