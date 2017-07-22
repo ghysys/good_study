@@ -24,4 +24,19 @@
 
 略过
 
-## 
+## 将mysql数据库文件安装到/usr/local/mysql
+
+	cd /usr/local
+	tar zxvf /tmp/mysql-5.6.27-linux-glibc2.5-i686.tar.gz
+	mv  mysql-5.6.27-linux-glibc2.5-i686 mysql
+	
+## 修改文件所属用户组
+
+	chown -R mysql:mysql /usr/local/mysql
+	
+## mysql初始化
+
+	scripts/mysql_install_db --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
+	
+报错信息
+-------
