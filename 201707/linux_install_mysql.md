@@ -28,7 +28,7 @@
 
 	cd /usr/local
 	tar zxvf /tmp/mysql-5.6.27-linux-glibc2.5-i686.tar.gz
-	mv  mysql-5.6.27-linux-glibc2.5-i686 mysql
+	mv  /usr/local/mysql-5.6.27-linux-glibc2.5-i686 /usr/local/mysql
 	
 ## 修改文件所属用户组
 
@@ -36,7 +36,33 @@
 	
 ## mysql初始化
 
-	scripts/mysql_install_db --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
+	/usr/local/mysql/scripts/mysql_install_db --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data
 	
-<fond colr="red">报错信息</fond>
+## 配置文件
+
+	cp /usr/local/mysql/my.cnf /etc/my.cnf
+	vi /etc/my.cnf
+	
+		basedir = /usr/local/mysql
+		datadir = /usr/local/mysql/data
+		port = 3306
+		server_id = 1
+		
+## 启动mysql服务
+
+	ln -s /usr/local/mysql/bin/mysql /usr/bin
+	service mysqld start
+	mysql -u root 
+	
+后续mysql的基本操作不在此表述
+
+报错信息
 -------
+
+# libaio.so.1: cannot open shared object file: No such file or directory
+
+请安装依赖包：libstdc++.so.6,libaio.so.1,libncurses.so.5
+
+# WARNING: The host 'sqlite' could not be looked up with /usr/local/mysql/bin/resolveip.
+
+修改hosts信息，添加ip地址映射
