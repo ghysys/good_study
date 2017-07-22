@@ -71,3 +71,7 @@
 **WARNING: The host 'sqlite' could not be looked up with /usr/local/mysql/bin/resolveip.**
 
 修改hosts信息，添加ip地址映射
+
+
+# 参考资料
+http://www.cnblogs.com/xiaoit/p/3988640.html
