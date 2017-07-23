@@ -19,7 +19,7 @@
 
 如果存在mysql包，需要移除
 
-	yum -y remove mysql-libs.x86_64
+	#yum -y remove mysql-libs.x86_64
 	
 ## 查看本地rpm包mysql版本
 
