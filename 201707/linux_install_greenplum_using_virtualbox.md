@@ -67,6 +67,34 @@ greenplum现在是开源数据库，现在很多项目都使用该数据库作�
 	* soft nproc 131072 
 	* hard nproc 131072 
 
+	
+## 主机节点设置
+
+
+### 解压安装包
+
+	unzip greenplum-db-4.3.9.1-build-1-rhel5-x86_64.zip
+	./greenplum-db-4.3.9.1-build-1-rhel5-x86_64.bin
+	
+可以选择默认，默认安装路径在/usr/local/greenplum-db-4.3.9.1
+
+### 在安装路径下创建文件
+
+	#vim all_hosts
+	
+	master 
+	slave1 
+	slave2
+	
+	#ssh slave1
+	#ssh slave2
+
+### 执行环境变量
+
+	#source greenplum_path.sh
+
+
+	
 
 参考文档
 http://www.cnblogs.com/peng-lan/p/5884290.html
