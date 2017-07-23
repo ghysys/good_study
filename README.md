@@ -1,7 +1,7 @@
 # good_study
 
 
-### 201707目录(201707)  
+### [201707]  
 
 #####  [《虚拟机 linux 安装 oracle 11g 单机》](201707/linux_install_oracle_11g_single.md)  
 
