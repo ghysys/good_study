@@ -3,4 +3,6 @@
 
 #####  [《virtualbox虚拟机复制后配置》](virtualbox_machine_backup_configure.md)  
 
-#####  [《linux二进制方式安装mysql》](linux_two_stage_system_install_mysql.md)  
+#####  [《linux 二进制方式 安装mysql》](linux_two_stage_system_install_mysql.md)  
+
+#####  [《linux yum 安装mysql》](linux_yum_install_mysql.md)  
