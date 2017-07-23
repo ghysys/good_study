@@ -188,4 +188,4 @@ http://note.youdao.com/noteshare?id=4c87eabf97c1d0f634e48bf2e392387f&sub=C725D53
 
 附件
 
-centos7 生产库 安装 (resource/GP在CENTOS7上的安装部署.rar)
+centos7 生产库 安装 [](resource/GP在CENTOS7上的安装部署.rar)
