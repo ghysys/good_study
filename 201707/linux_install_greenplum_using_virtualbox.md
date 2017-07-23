@@ -185,3 +185,7 @@ master,slave执行ntp服务
 http://www.cnblogs.com/peng-lan/p/5884290.html
 
 http://note.youdao.com/noteshare?id=4c87eabf97c1d0f634e48bf2e392387f&sub=C725D5302B4A4A85B9D29A9E284C9484
+
+附件
+
+centos7 生产库 安装 (resource/GP在CENTOS7上的安装部署.rar)
