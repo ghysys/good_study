@@ -93,8 +93,16 @@ greenplum现在是开源数据库，现在很多项目都使用该数据库作�
 
 	#source greenplum_path.sh
 
+### 其他节点用户目录创建
+
+	#gpseginstall -f all_hosts -u gpadmin -p gpadmin
+	
+## 所有主机上初始化配置Greenplum
+
 
 	
-
+	
+	
+	
 参考文档
 http://www.cnblogs.com/peng-lan/p/5884290.html
