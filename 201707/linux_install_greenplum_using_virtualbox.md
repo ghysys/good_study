@@ -188,4 +188,4 @@ http://note.youdao.com/noteshare?id=4c87eabf97c1d0f634e48bf2e392387f&sub=C725D53
 
 附件
 
-centos7 生产库 安装 [](resource/GP在CENTOS7上的安装部署.rar)
+centos7 生产库 安装 (https://github.com/ghysys/good_study/blob/master/201707/resource/GP%E5%9C%A8CENTOS7%E4%B8%8A%E7%9A%84%E5%AE%89%E8%A3%85%E9%83%A8%E7%BD%B2.rar)
